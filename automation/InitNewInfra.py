@@ -5,8 +5,8 @@ import os
 import time
 import copy
 import uuid
-consulBinary = "/home/khalefa/Github/InfraConsul/automation/binaries/consul"
-vaultBinary = "/home/khalefa/Github/InfraConsul/automation/binaries/vault"
+consulBinary = "/home/test/Github/InfraConsul/automation/binaries/consul"
+vaultBinary = "/home/test/Github/InfraConsul/automation/binaries/vault"
 
 Create_Service_Command = """
 cat << EOM | sudo tee /etc/systemd/system/consul.service
